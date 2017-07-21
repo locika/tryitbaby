@@ -6,9 +6,9 @@ import cubeprogram
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
-        self.assertEqual( "A kocka térfogata: 8 A kocka felülete: 24", cubeprogram.cube(2))
-        self.assertEqual("Az oldalhossznak pozitív számnak kell lennie", cubeprogram.cube(-1))
-        self.assertEqual("A bemenet nem alakítható át egész számmá", cubeprogram.cube("asd"))
+        self.assertEqual( "The V(olume) of the cube is: 8 The A(rea) of the cube is: 24", cubeprogram.cube(2))
+        self.assertEqual("The input parameter must be positive", cubeprogram.cube(-1))
+        self.assertEqual("The input cannot be converted to integer", cubeprogram.cube("asd"))
         print("Pass")
 if __name__ == '__main__':
     unittest.main()
