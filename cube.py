@@ -13,6 +13,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual("The input parameter must be positive", cubeprogram.cube(0))
     def test_string(self):
         self.assertEqual("The input cannot be converted to integer", cubeprogram.cube("asd"))
-        print("Pass")
+
 if __name__ == '__main__':
     unittest.main()
