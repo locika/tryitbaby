@@ -12,5 +12,3 @@ class MyTestCase(unittest.TestCase):
         print("Pass")
 if __name__ == '__main__':
     unittest.main()
-
-
