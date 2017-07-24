@@ -8,6 +8,7 @@ def sphere(x):
     "The V(olume) of the sphere is: "x" The A(rea) of the sphere is: "y" "
     "The input parameter must be positive"
     "The input cannot be converted to integer"
+    Note: you have to round the number till 2 decimals if the number is not whole
     """
 
 if __name__ == '__main__':
