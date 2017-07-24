@@ -7,7 +7,7 @@ class Sphere(unittest.TestCase):
     def test_positive(self):
         self.assertEqual("The V(olume) of the sphere is: 33.49 The A(rea) of the sphere is: 50.24", sphereprogram.sphere(2))
     def test_whole(self):
-        self.assertEqual("The V(olume) of the sphere is: 3349 The A(rea) of the sphere is: 33493333.33", sphereprogram.sphere(200))
+        self.assertEqual("The V(olume) of the sphere is: 33493333.33 The A(rea) of the sphere is: 502400", sphereprogram.sphere(200))
     def test_negative(self):
         self.assertEqual("The input parameter must be positive", sphereprogram.sphere(-1))
     def test_zero(self):
