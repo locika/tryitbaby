@@ -9,6 +9,7 @@ def sphere(x):
     "The input parameter must be positive"
     "The input cannot be converted to integer"
     Note: you have to round the number till 2 decimals if the number is not whole
+    Note2: use pi as 3.14 (not math.pi)
     """
 
 if __name__ == '__main__':
